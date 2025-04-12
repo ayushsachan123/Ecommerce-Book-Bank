@@ -1,0 +1,50 @@
+{
+  "name": "ecommerce-book_bank",
+  "version": "1.0.0",
+  "description": "This project focuses on designing an e-commerce application dedicated to selling books. \r The goal is to create a robust and scalable database schema to manage key entities like \r users, admins, books, and carts, which are essential for building the foundation of the application.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "cross-env NODE_ENV=localhost node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:ts-node": "npx ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachanayush/Ecommerce-Book_Bank.git"
+  },
+  "author": "Ayush Sachan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachanayush/Ecommerce-Book_Bank/issues"
+  },
+  "homepage": "https://github.com/sachanayush/Ecommerce-Book_Bank#readme",
+  "dependencies": {
+    "@types/node": "^22.13.2",
+    "aes-encryption": "^1.0.4",
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.1.1",
+    "celebrate": "^15.0.3",
+    "config": "^3.3.12",
+    "express": "^4.21.2",
+    "firebase": "^11.3.1",
+    "firebase-admin": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/basic-auth": "^1.1.8",
+    "@types/bcrypt": "^5.0.2",
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9"
+  }
+}
