@@ -1,0 +1,19 @@
+{
+    "dbConfig": {
+      "host": "mongodb://localhost",
+      "port": 27017,
+      "dbName": "ecommerce"
+    },
+    "PORT": "5000",
+    "firebaseURL": "https://ecommerce-c6d51-default-rtdb.firebaseio.com/",
+    "ENVIRONMENT" : "SERVER",
+    "DAO": "MONGO",
+    "loggerLevel": "info",
+    "userName": "ayush",
+    "password": "12345",
+    "TOKEN_HEADER_KEY": "token",
+    "JWT_SECRET_KEY": "abc123def",
+    "AES_SECRET_KEY": "11122233344455566677788822244455555555555555555231231321313aaaff",
+    "AUTH_VERSION": "v2",
+    "EXPIRY_TIME": "24"
+}

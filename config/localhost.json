@@ -1,0 +1,24 @@
+{
+      "dbConfig": {
+        "host": "mongodb://localhost",
+        "port": 27017,
+        "dbName": "ecommerce"
+      },
+      "PORT": "5000",
+      "firebaseURL": "https://ecommerce-c6d51-default-rtdb.firebaseio.com/",
+      "ENVIRONMENT" : "LOCAL",
+      "DAO": "MONGO",
+      "loggerLevel": "info",
+      "userName": "ayush",
+      "password": "12345",
+      "TOKEN_HEADER_KEY": "token",
+      "JWT_SECRET_KEY": "abc123def",
+      "AES_SECRET_KEY": "11122233344455566677788822244455555555555555555231231321313aaaff",
+      "AUTH_VERSION": "v1",
+      "ACCESS_TOKEN_EXPIRY_TIME": "24",
+      "REFRESH_TOKEN_EXPIRY_TIME": "48",
+      "MAXIMUM_ACTIVE_SESSION": "2",
+      "SUPERADMINS": [{"id": "12345", "email": "abc.in@gmail.com", "password": "$2b$10$GpbQBSrzlXBj93D.YfNLL.poxxG7wXNTe34TDgwQN5D1NGlIYPVG6"}],
+      "GST": "18",
+      "giftCardExpiryDays": "2"
+}
